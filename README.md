@@ -34,6 +34,7 @@ LoadTicketsCSV → SentimentAnalysisVADER → AggregateStats → SendReportEmail
 ---
 
 ## 📂 Project Structure
+```
 LangflowApp/
 ├── components/            
 │   ├── load_tickets.py
@@ -50,7 +51,7 @@ LangflowApp/
 ├── .gitignore              
 ├── README.md
 └── langflow practical challenge project.json 
-
+```
 
 ---
 
