@@ -67,8 +67,8 @@ pip install -r requirements.txt
 NLTK VADER Setupbash
 >>> import nltk
 >>> nltk.download('vader_lexicon')
-
-✅ Sample Email Output
+```
+Sample Email Output
 
 # Support Ticket Summary for 2025-07
 **Total Tickets:** 1000  
