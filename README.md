@@ -142,8 +142,10 @@ Send a formatted HTML email to the recipient
 ---
 
 *Report generated automatically*
+
 📞 Contact:
-For questions, reach out via Discord: hasansafa000
+For questions, reach out via Discord: hasansafa000 ; via Email: hasansafa534@gmail.com
 
 ✨ This project fully meets the Langflow Challenge 2025 requirements with advanced custom components and end-to-end automation! ✨
+
 
