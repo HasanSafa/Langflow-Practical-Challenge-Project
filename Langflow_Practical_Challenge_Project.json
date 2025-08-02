@@ -1,0 +1,1510 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "LoadTicketsCSV",
+            "id": "CustomComponent-X75x4",
+            "name": "tickets_data",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tickets",
+            "id": "CustomComponent-vMRH6",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-X75x4{œdataTypeœ:œLoadTicketsCSVœ,œidœ:œCustomComponent-X75x4œ,œnameœ:œtickets_dataœ,œoutput_typesœ:[œDataœ]}-CustomComponent-vMRH6{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-vMRH6œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-X75x4",
+        "sourceHandle": "{œdataTypeœ:œLoadTicketsCSVœ,œidœ:œCustomComponent-X75x4œ,œnameœ:œtickets_dataœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-vMRH6",
+        "targetHandle": "{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-vMRH6œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ValidateTickets",
+            "id": "CustomComponent-vMRH6",
+            "name": "validated",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tickets",
+            "id": "CustomComponent-joJG6",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-vMRH6{œdataTypeœ:œValidateTicketsœ,œidœ:œCustomComponent-vMRH6œ,œnameœ:œvalidatedœ,œoutput_typesœ:[œDataœ]}-CustomComponent-joJG6{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-joJG6œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-vMRH6",
+        "sourceHandle": "{œdataTypeœ:œValidateTicketsœ,œidœ:œCustomComponent-vMRH6œ,œnameœ:œvalidatedœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-joJG6",
+        "targetHandle": "{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-joJG6œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "FilterClosedTickets",
+            "id": "CustomComponent-joJG6",
+            "name": "closed_tickets",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tickets",
+            "id": "SentimentAnalysisVADER-QtEwK",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-joJG6{œdataTypeœ:œFilterClosedTicketsœ,œidœ:œCustomComponent-joJG6œ,œnameœ:œclosed_ticketsœ,œoutput_typesœ:[œDataœ]}-SentimentAnalysisVADER-QtEwK{œfieldNameœ:œticketsœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-joJG6",
+        "sourceHandle": "{œdataTypeœ:œFilterClosedTicketsœ,œidœ:œCustomComponent-joJG6œ,œnameœ:œclosed_ticketsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SentimentAnalysisVADER-QtEwK",
+        "targetHandle": "{œfieldNameœ:œticketsœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "AggregateStats",
+            "id": "CustomComponent-D8N3i",
+            "name": "stats",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "stats",
+            "id": "CustomComponent-Rs9KZ",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-D8N3i{œdataTypeœ:œAggregateStatsœ,œidœ:œCustomComponent-D8N3iœ,œnameœ:œstatsœ,œoutput_typesœ:[œDataœ]}-CustomComponent-Rs9KZ{œfieldNameœ:œstatsœ,œidœ:œCustomComponent-Rs9KZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-D8N3i",
+        "sourceHandle": "{œdataTypeœ:œAggregateStatsœ,œidœ:œCustomComponent-D8N3iœ,œnameœ:œstatsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-Rs9KZ",
+        "targetHandle": "{œfieldNameœ:œstatsœ,œidœ:œCustomComponent-Rs9KZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "FormatMarkdownReport",
+            "id": "CustomComponent-Rs9KZ",
+            "name": "report",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "report",
+            "id": "CustomComponent-tJA6L",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-Rs9KZ{œdataTypeœ:œFormatMarkdownReportœ,œidœ:œCustomComponent-Rs9KZœ,œnameœ:œreportœ,œoutput_typesœ:[œDataœ]}-CustomComponent-tJA6L{œfieldNameœ:œreportœ,œidœ:œCustomComponent-tJA6Lœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-Rs9KZ",
+        "sourceHandle": "{œdataTypeœ:œFormatMarkdownReportœ,œidœ:œCustomComponent-Rs9KZœ,œnameœ:œreportœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-tJA6L",
+        "targetHandle": "{œfieldNameœ:œreportœ,œidœ:œCustomComponent-tJA6Lœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "AggregateStats",
+            "id": "CustomComponent-D8N3i",
+            "name": "stats",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "stats",
+            "id": "CustomComponent-CPbea",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-D8N3i{œdataTypeœ:œAggregateStatsœ,œidœ:œCustomComponent-D8N3iœ,œnameœ:œstatsœ,œoutput_typesœ:[œDataœ]}-CustomComponent-CPbea{œfieldNameœ:œstatsœ,œidœ:œCustomComponent-CPbeaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-D8N3i",
+        "sourceHandle": "{œdataTypeœ:œAggregateStatsœ,œidœ:œCustomComponent-D8N3iœ,œnameœ:œstatsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-CPbea",
+        "targetHandle": "{œfieldNameœ:œstatsœ,œidœ:œCustomComponent-CPbeaœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SentimentAnalysisVADER",
+            "id": "SentimentAnalysisVADER-QtEwK",
+            "name": "classified_tickets",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tickets",
+            "id": "ExtractExamples-PNovf",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SentimentAnalysisVADER-QtEwK{œdataTypeœ:œSentimentAnalysisVADERœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œnameœ:œclassified_ticketsœ,œoutput_typesœ:[œDataœ]}-ExtractExamples-PNovf{œfieldNameœ:œticketsœ,œidœ:œExtractExamples-PNovfœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SentimentAnalysisVADER-QtEwK",
+        "sourceHandle": "{œdataTypeœ:œSentimentAnalysisVADERœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œnameœ:œclassified_ticketsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ExtractExamples-PNovf",
+        "targetHandle": "{œfieldNameœ:œticketsœ,œidœ:œExtractExamples-PNovfœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SentimentAnalysisVADER",
+            "id": "SentimentAnalysisVADER-QtEwK",
+            "name": "classified_tickets",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "tickets",
+            "id": "CustomComponent-D8N3i",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SentimentAnalysisVADER-QtEwK{œdataTypeœ:œSentimentAnalysisVADERœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œnameœ:œclassified_ticketsœ,œoutput_typesœ:[œDataœ]}-CustomComponent-D8N3i{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-D8N3iœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SentimentAnalysisVADER-QtEwK",
+        "sourceHandle": "{œdataTypeœ:œSentimentAnalysisVADERœ,œidœ:œSentimentAnalysisVADER-QtEwKœ,œnameœ:œclassified_ticketsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-D8N3i",
+        "targetHandle": "{œfieldNameœ:œticketsœ,œidœ:œCustomComponent-D8N3iœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ExtractSentimentExamples",
+            "id": "ExtractExamples-PNovf",
+            "name": "examples",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "examples",
+            "id": "CustomComponent-Rs9KZ",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ExtractExamples-PNovf{œdataTypeœ:œExtractSentimentExamplesœ,œidœ:œExtractExamples-PNovfœ,œnameœ:œexamplesœ,œoutput_typesœ:[œDataœ]}-CustomComponent-Rs9KZ{œfieldNameœ:œexamplesœ,œidœ:œCustomComponent-Rs9KZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ExtractExamples-PNovf",
+        "sourceHandle": "{œdataTypeœ:œExtractSentimentExamplesœ,œidœ:œExtractExamples-PNovfœ,œnameœ:œexamplesœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-Rs9KZ",
+        "targetHandle": "{œfieldNameœ:œexamplesœ,œidœ:œCustomComponent-Rs9KZœ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "FormatMarkdownReport",
+            "id": "CustomComponent-Rs9KZ",
+            "name": "report",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "markdown_report",
+            "id": "CustomComponent-URrC1",
+            "inputTypes": [
+              "Data"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-Rs9KZ{œdataTypeœ:œFormatMarkdownReportœ,œidœ:œCustomComponent-Rs9KZœ,œnameœ:œreportœ,œoutput_typesœ:[œDataœ]}-CustomComponent-URrC1{œfieldNameœ:œmarkdown_reportœ,œidœ:œCustomComponent-URrC1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-Rs9KZ",
+        "sourceHandle": "{œdataTypeœ:œFormatMarkdownReportœ,œidœ:œCustomComponent-Rs9KZœ,œnameœ:œreportœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-URrC1",
+        "targetHandle": "{œfieldNameœ:œmarkdown_reportœ,œidœ:œCustomComponent-URrC1œ,œinputTypesœ:[œDataœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "CustomComponent-X75x4",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Reads a CSV, fills missing emails, normalizes dates and desc.",
+            "display_name": "Load Tickets CSV",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "file_path",
+              "column_map"
+            ],
+            "frozen": false,
+            "icon": "file",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Tickets Data",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "build_output",
+                "name": "tickets_data",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import pandas as pd\r\nimport os\r\nimport json\r\nfrom langflow.custom.custom_component.component import Component\r\nfrom langflow.io import StrInput, DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\nclass LoadTicketsCSV(Component):\r\n    display_name = \"Load Tickets CSV\"\r\n    description = \"Reads a CSV, fills missing emails, normalizes dates and desc.\"\r\n    icon = \"file\"\r\n    name = \"LoadTicketsCSV\"\r\n\r\n    inputs = [\r\n        StrInput(\r\n            name=\"file_path\",\r\n            display_name=\"CSV File Path\",\r\n            value=\"C:/Users/HP/Downloads/tickets.csv\",\r\n        ),\r\n        StrInput(\r\n            name=\"column_map\",\r\n            display_name=\"Column Map (json)\",\r\n            value='{\"open_date\":\"open_date\",\"close_date\":\"close_date\",\"description\":\"ticket_description\",\"email\":\"email\"}',\r\n        ),\r\n    ]\r\n    outputs = [\r\n        Output(display_name=\"Tickets Data\", name=\"tickets_data\", method=\"build_output\"),\r\n    ]\r\n\r\n    def build_output(self) -> Data:\r\n        if not os.path.exists(self.file_path):\r\n            raise FileNotFoundError(f\"CSV not found: {self.file_path}\")\r\n        df = pd.read_csv(self.file_path)\r\n        cmap = json.loads(self.column_map)\r\n        df.rename(columns=cmap, inplace=True)\r\n        for col in [\"open_date\", \"close_date\", \"ticket_description\", \"email\"]:\r\n            if col not in df.columns:\r\n                raise ValueError(f\"Missing column: {col}\")\r\n        df[\"open_date\"] = pd.to_datetime(df[\"open_date\"])\r\n        df[\"close_date\"] = pd.to_datetime(df[\"close_date\"])\r\n        df[\"email\"].fillna(\"no-reply@example.com\", inplace=True)\r\n        df[\"response_time\"] = (df[\"close_date\"] - df[\"open_date\"]).dt.days\r\n        return Data(value=df.to_dict(orient=\"records\"))\r\n\r\n\r\nclass ValidateTickets(Component):\r\n    display_name = \"Validate Tickets\"\r\n    description = \"Keep tickets with minimal required fields.\"\r\n    icon = \"check\"\r\n    name = \"ValidateTickets\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"tickets\", display_name=\"Tickets\", is_list=True),\r\n    ]\r\n    outputs = [\r\n        Output(display_name=\"Validated Tickets\", name=\"validated\", method=\"validate\"),\r\n    ]\r\n\r\n    def validate(self) -> Data:\r\n        tickets = self.tickets.value if hasattr(self.tickets, \"value\") else self.tickets\r\n        valid = [\r\n            t for t in tickets\r\n            if t.get(\"ticket_description\") and t.get(\"open_date\") and t.get(\"email\")\r\n        ]\r\n        return Data(value=valid)\r\n\r\n"
+              },
+              "column_map": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Column Map (json)",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "column_map",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{\"open_date\": \"open_date\", \"close_date\": \"close_date\", \"description\": \"ticket_description\"}"
+              },
+              "file_path": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "CSV File Path",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "file_path",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "C:/Users/HP/Downloads/tickets.csv"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "LoadTicketsCSV"
+        },
+        "dragging": false,
+        "id": "CustomComponent-X75x4",
+        "measured": {
+          "height": 301,
+          "width": 320
+        },
+        "position": {
+          "x": -2243.573068973468,
+          "y": -721.9472437713409
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-D8N3i",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Aggregates sentiment counts, average response time, and sample tickets.",
+            "display_name": "Aggregate Ticket Stats",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tickets"
+            ],
+            "frozen": false,
+            "icon": "chart-bar",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Stats",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "aggregate",
+                "name": "stats",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\ndef flatten_to_dicts(data):\r\n    if hasattr(data, \"value\"):\r\n        return flatten_to_dicts(data.value)\r\n    if isinstance(data, dict):\r\n        return [data]\r\n    if isinstance(data, list):\r\n        result = []\r\n        for item in data:\r\n            result.extend(flatten_to_dicts(item))\r\n        return result\r\n    return []\r\n\r\nclass AggregateStats(Component):\r\n    display_name = \"Aggregate Ticket Stats\"\r\n    description = \"Aggregates sentiment counts, average response time, and sample tickets.\"\r\n    icon = \"chart-bar\"\r\n    name = \"AggregateStats\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"tickets\", display_name=\"Classified Tickets\", info=\"List of ticket dicts\", is_list=True),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Stats\", name=\"stats\", method=\"aggregate\"),\r\n    ]\r\n\r\n    def aggregate(self) -> Data:\r\n        tickets_list = flatten_to_dicts(self.tickets)\r\n\r\n        total = len(tickets_list)\r\n        positive = [t for t in tickets_list if t.get(\"sentiment\") == \"Positive\"]\r\n        negative = [t for t in tickets_list if t.get(\"sentiment\") == \"Negative\"]\r\n        neutral = [t for t in tickets_list if t.get(\"sentiment\") == \"Neutral\"]\r\n\r\n        response_times = [t.get(\"response_time\", 0) for t in tickets_list if \"response_time\" in t]\r\n        avg_response = sum(response_times) / len(response_times) if response_times else 0\r\n\r\n        stats = {\r\n            \"total_count\": total,\r\n            \"count_positive\": len(positive),\r\n            \"count_negative\": len(negative),\r\n            \"count_neutral\": len(neutral),\r\n            \"avg_response\": round(avg_response, 2),\r\n            \"sample_positive\": [p.get(\"ticket_description\", \"\")[:60] for p in positive[:3]],\r\n            \"sample_negative\": [n.get(\"ticket_description\", \"\")[:60] for n in negative[:3]],\r\n            \"sample_neutral\": [nu.get(\"ticket_description\", \"\")[:60] for nu in neutral[:3]],\r\n        }\r\n        return Data(value=stats)"
+              },
+              "tickets": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Classified Tickets",
+                "dynamic": false,
+                "info": "List of ticket dicts",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tickets",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "AggregateStats"
+        },
+        "dragging": false,
+        "id": "CustomComponent-D8N3i",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -814.9971836702756,
+          "y": -720.1768347644133
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-URrC1",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Sends a styled HTML email from a markdown report.",
+            "display_name": "Send Final HTML Report",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "markdown_report",
+              "subject",
+              "smtp_server",
+              "smtp_port",
+              "sender_email",
+              "sender_password",
+              "recipient_email"
+            ],
+            "frozen": false,
+            "icon": "mail",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Email Status",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "send_email",
+                "name": "status",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, StrInput, IntInput, Output\r\nfrom langflow.schema.data import Data\r\nimport smtplib\r\nfrom email.mime.multipart import MIMEMultipart\r\nfrom email.mime.text import MIMEText\r\nimport markdown2\r\n\r\nclass SendReportEmail(Component):\r\n    display_name = \"Send Final HTML Report\"\r\n    description = \"Sends a styled HTML email from a markdown report.\"\r\n    icon = \"mail\"\r\n    name = \"SendReportEmail\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"markdown_report\", display_name=\"Markdown Report\", is_list=False),\r\n        StrInput(name=\"subject\", display_name=\"Email Subject\"),\r\n        StrInput(name=\"smtp_server\", display_name=\"SMTP Server\"),\r\n        IntInput(name=\"smtp_port\", display_name=\"SMTP Port\"),\r\n        StrInput(name=\"sender_email\", display_name=\"Sender Email\"),\r\n        StrInput(name=\"sender_password\", display_name=\"Sender Password\"),\r\n        StrInput(name=\"recipient_email\", display_name=\"Recipient Email\"),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Email Status\", name=\"status\", method=\"send_email\")\r\n    ]\r\n\r\n    def send_email(self) -> Data:\r\n        # استرجاع نص الـ Markdown\r\n        md = (\r\n            self.markdown_report.value\r\n            if hasattr(self.markdown_report, \"value\")\r\n            else self.markdown_report\r\n        )\r\n        # تحويله لـ HTML\r\n        html = markdown2.markdown(md)\r\n\r\n        msg = MIMEMultipart(\"alternative\")\r\n        msg[\"Subject\"] = self.subject\r\n        msg[\"From\"] = self.sender_email\r\n        msg[\"To\"] = self.recipient_email\r\n\r\n        # مرفقات النص العادي والـ HTML\r\n        msg.attach(MIMEText(md, \"plain\", \"utf-8\"))\r\n        msg.attach(MIMEText(html, \"html\", \"utf-8\"))\r\n\r\n        try:\r\n            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:\r\n                server.starttls()\r\n                server.login(self.sender_email, self.sender_password)\r\n                server.sendmail(\r\n                    self.sender_email,\r\n                    [self.recipient_email],\r\n                    msg.as_string(),\r\n                )\r\n            return Data(value=\"✅ Email sent successfully with HTML report\")\r\n        except Exception as e:\r\n            return Data(value=f\"❌ Failed to send email: {e}\")\r\n\r\n\r\n\r\n"
+              },
+              "markdown_report": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Markdown Report",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "markdown_report",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "recipient_email": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Recipient Email",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "recipient_email",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "contact@langflow.org "
+              },
+              "sender_email": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Sender Email",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_email",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "langflow.challenge@gmail.com"
+              },
+              "sender_password": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Sender Password",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_password",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "eimc dcbi eyar eifa"
+              },
+              "smtp_port": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "SMTP Port",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "smtp_port",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 587
+              },
+              "smtp_server": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "SMTP Server",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "smtp_server",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "smtp.gmail.com"
+              },
+              "subject": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Email Subject",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "subject",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "📊 Weekly Ticket Performance Report"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SendReportEmail"
+        },
+        "dragging": false,
+        "id": "CustomComponent-URrC1",
+        "measured": {
+          "height": 673,
+          "width": 320
+        },
+        "position": {
+          "x": -80.470672668209,
+          "y": -739.677485759388
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-joJG6",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Filters only tickets that have a valid close_date field.",
+            "display_name": "Filter Closed Tickets",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tickets"
+            ],
+            "frozen": false,
+            "icon": "filter",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Closed Tickets",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "filter_closed",
+                "name": "closed_tickets",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\nimport pandas as pd\r\n\r\ndef unwrap(data):\r\n    if data is None:\r\n        return []\r\n    if hasattr(data, \"value\"):\r\n        return unwrap(data.value)\r\n    if isinstance(data, list):\r\n        result = []\r\n        for item in data:\r\n            result.extend(unwrap(item))\r\n        return result\r\n    if isinstance(data, dict):\r\n        return [data]\r\n    return []\r\n\r\nclass FilterClosedTickets(Component):\r\n    display_name = \"Filter Closed Tickets\"\r\n    description = \"Filters only tickets that have a valid close_date field.\"\r\n    icon = \"filter\"\r\n    name = \"FilterClosedTickets\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"tickets\", display_name=\"Tickets Data\", info=\"List of ticket dicts\", is_list=True),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Closed Tickets\", name=\"closed_tickets\", method=\"filter_closed\"),\r\n    ]\r\n\r\n    def filter_closed(self) -> Data:\r\n        tickets_list = unwrap(self.tickets)\r\n\r\n        def is_valid_date(value):\r\n            try:\r\n                pd.to_datetime(value)\r\n                return True\r\n            except:\r\n                return False\r\n\r\n        closed = [t for t in tickets_list if is_valid_date(t.get(\"close_date\"))]\r\n        return Data(value=closed)\r\n\r\n"
+              },
+              "tickets": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Tickets Data",
+                "dynamic": false,
+                "info": "List of ticket dicts",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tickets",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "FilterClosedTickets"
+        },
+        "dragging": false,
+        "id": "CustomComponent-joJG6",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -1532.1430077081627,
+          "y": -720.1532250610668
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-Rs9KZ",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Formats aggregated stats and examples into a nicely structured markdown report.",
+            "display_name": "Format Markdown Report",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "stats",
+              "examples"
+            ],
+            "frozen": false,
+            "icon": "markdown",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Markdown Report",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "format_report",
+                "name": "report",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\nclass FormatMarkdownReport(Component):\r\n    display_name = \"Format Markdown Report\"\r\n    description = \"Formats aggregated stats and examples into a nicely structured markdown report.\"\r\n    icon = \"markdown\"\r\n    name = \"FormatMarkdownReport\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"stats\", display_name=\"Stats\", is_list=False),\r\n        DataInput(name=\"examples\", display_name=\"Examples\", is_list=False),\r\n    ]\r\n    outputs = [\r\n        Output(display_name=\"Markdown Report\", name=\"report\", method=\"format_report\")\r\n    ]\r\n\r\n    def format_report(self) -> Data:\r\n        stats = self.stats.value if hasattr(self.stats, \"value\") else self.stats\r\n        examples_obj = self.examples.value if hasattr(self.examples, \"value\") else self.examples\r\n\r\n        positive, neutral, negative = [], [], []\r\n\r\n        # handle dict-of-lists\r\n        if isinstance(examples_obj, dict):\r\n            norm = {k.lower(): v for k, v in examples_obj.items()}\r\n            positive = norm.get(\"positive\", [])\r\n            neutral  = norm.get(\"neutral\", [])\r\n            negative = norm.get(\"negative\", [])\r\n\r\n        # handle list-of-dicts\r\n        elif isinstance(examples_obj, list):\r\n            for item in examples_obj:\r\n                if not isinstance(item, dict):\r\n                    continue\r\n                sent = item.get(\"sentiment\", \"\").lower()\r\n                text = item.get(\"message\") or item.get(\"text\") or item.get(\"example\", \"\")\r\n                if sent == \"positive\":\r\n                    positive.append(text)\r\n                elif sent == \"neutral\":\r\n                    neutral.append(text)\r\n                elif sent == \"negative\":\r\n                    negative.append(text)\r\n\r\n        # build each section separately\r\n        pos_md = \"\\n\".join(f\"- {m}\" for m in positive) or \"No positive examples.\"\r\n        neu_md = \"\\n\".join(f\"- {m}\" for m in neutral)  or \"No neutral examples.\"\r\n        neg_md = \"\\n\".join(f\"- {m}\" for m in negative) or \"No negative examples.\"\r\n\r\n        md = f\"\"\"\r\n# 📨 Support Ticket Summary\r\n\r\n**Total Tickets:** {stats.get(\"total_count\", \"N/A\")}  \r\n**Average Response Time:** {stats.get(\"avg_response\", \"N/A\")} days\r\n\r\n---\r\n\r\n## 🧠 Sentiment Breakdown\r\n\r\n- **Positive:** {stats.get(\"count_positive\", 0)}\r\n- **Neutral:** {stats.get(\"count_neutral\", 0)}\r\n- **Negative:** {stats.get(\"count_negative\", 0)}\r\n\r\n---\r\n\r\n## 🔍 Examples\r\n\r\n### ✅ Positive Samples\r\n\r\n{pos_md}\r\n\r\n### 😐 Neutral Samples\r\n\r\n{neu_md}\r\n\r\n### ❌ Negative Samples\r\n\r\n{neg_md}\r\n\r\n---\r\n\r\n*Report generated automatically. For questions, reach out.*\r\n\"\"\".strip()\r\n\r\n        return Data(value=md)\r\n\r\n"
+              },
+              "examples": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Examples",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "examples",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "stats": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Stats",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stats",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "FormatMarkdownReport"
+        },
+        "dragging": false,
+        "id": "CustomComponent-Rs9KZ",
+        "measured": {
+          "height": 225,
+          "width": 320
+        },
+        "position": {
+          "x": -452.33297675963206,
+          "y": -492.97938551958225
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-tJA6L",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Saves the generated markdown report to a local file.",
+            "display_name": "Save Report to File",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "report"
+            ],
+            "frozen": false,
+            "icon": "save",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "File Path",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "save",
+                "name": "file_path",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\nclass SaveReportToFile(Component):\r\n    display_name = \"Save Report to File\"\r\n    description = \"Saves the generated markdown report to a local file.\"\r\n    icon = \"save\"\r\n    name = \"SaveReportToFile\"\r\n\r\n    inputs = [DataInput(name=\"report\", display_name=\"Markdown Report\", is_list=False)]\r\n\r\n    outputs = [Output(display_name=\"File Path\", name=\"file_path\", method=\"save\")]\r\n\r\n    def save(self) -> Data:\r\n        report = self.report.value if hasattr(self.report, \"value\") else self.report\r\n        file_path = \"monthly_report.md\"\r\n        with open(file_path, \"w\", encoding=\"utf-8\") as f:\r\n            f.write(report)\r\n        return Data(value=file_path)"
+              },
+              "report": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Markdown Report",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "report",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SaveReportToFile"
+        },
+        "dragging": false,
+        "id": "CustomComponent-tJA6L",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -465.0230986102283,
+          "y": -210.09611058899958
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-vMRH6",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Ensures all tickets contain required fields with values.",
+            "display_name": "Validate Tickets",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tickets"
+            ],
+            "frozen": false,
+            "icon": "check",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Validated Tickets",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "validate",
+                "name": "validated",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\ndef unwrap(data):\r\n    if data is None:\r\n        return []\r\n    if hasattr(data, \"value\"):\r\n        return unwrap(data.value)\r\n    if isinstance(data, list):\r\n        result = []\r\n        for item in data:\r\n            result.extend(unwrap(item))\r\n        return result\r\n    if isinstance(data, dict):\r\n        return [data]\r\n    return []\r\n\r\nclass ValidateTickets(Component):\r\n    display_name = \"Validate Tickets\"\r\n    description = \"Ensures all tickets contain required fields with values.\"\r\n    icon = \"check\"\r\n    name = \"ValidateTickets\"\r\n\r\n    inputs = [DataInput(name=\"tickets\", display_name=\"Tickets\", is_list=True)]\r\n\r\n    outputs = [Output(display_name=\"Validated Tickets\", name=\"validated\", method=\"validate\")]\r\n\r\n    def validate(self) -> Data:\r\n        tickets = unwrap(self.tickets)\r\n\r\n        def is_valid(ticket):\r\n            if not isinstance(ticket, dict):\r\n                return False\r\n            required_fields = [\"ticket_description\", \"open_date\"]\r\n            return all(field in ticket and ticket[field] not in [None, \"\"] for field in required_fields)\r\n\r\n        valid_tickets = [t for t in tickets if is_valid(t)]\r\n        return Data(value=valid_tickets)\r\n\r\n"
+              },
+              "tickets": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Tickets",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tickets",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ValidateTickets"
+        },
+        "dragging": false,
+        "id": "CustomComponent-vMRH6",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -1887.4480370301485,
+          "y": -720.013112339344
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-CPbea",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Logs stats to console for debugging.",
+            "display_name": "Log Summary",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "stats"
+            ],
+            "frozen": false,
+            "icon": "terminal",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Log Result",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "log",
+                "name": "log",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\nclass LogSummary(Component):\r\n    display_name = \"Log Summary\"\r\n    description = \"Logs stats to console for debugging.\"\r\n    icon = \"terminal\"\r\n    name = \"LogSummary\"\r\n\r\n    inputs = [DataInput(name=\"stats\", display_name=\"Stats\", is_list=False)]\r\n\r\n    outputs = [Output(display_name=\"Log Result\", name=\"log\", method=\"log\")]\r\n\r\n    def log(self) -> Data:\r\n        stats = self.stats.value if hasattr(self.stats, \"value\") else self.stats\r\n        print(\"[LOG] Summary Stats:\", stats)\r\n        return Data(value=\"Stats logged successfully.\")\r\n"
+              },
+              "stats": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Stats",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "stats",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "LogSummary"
+        },
+        "dragging": false,
+        "id": "CustomComponent-CPbea",
+        "measured": {
+          "height": 165,
+          "width": 320
+        },
+        "position": {
+          "x": -455.8097529987997,
+          "y": -714.2430975659989
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SentimentAnalysisVADER-QtEwK",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Classifies ticket sentiments using NLTK VADER based on the 'ticket_description' field.",
+            "display_name": "Sentiment Analysis (VADER)",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tickets"
+            ],
+            "frozen": false,
+            "icon": "face-smile",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Classified Tickets",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "analyze_sentiment",
+                "name": "classified_tickets",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\nclass SentimentAnalysisVADER(Component):\r\n    display_name = \"Sentiment Analysis (VADER)\"\r\n    description = \"Classifies ticket sentiments using NLTK VADER based on the 'ticket_description' field.\"\r\n    icon = \"face-smile\"\r\n    name = \"SentimentAnalysisVADER\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"tickets\", display_name=\"Tickets Data\", info=\"List of ticket dictionaries\", is_list=True),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Classified Tickets\", name=\"classified_tickets\", method=\"analyze_sentiment\"),\r\n    ]\r\n\r\n    def analyze_sentiment(self) -> Data:\r\n        from nltk.sentiment.vader import SentimentIntensityAnalyzer\r\n        sia = SentimentIntensityAnalyzer()\r\n\r\n        raw_input = self.tickets\r\n        tickets_list = raw_input.value if hasattr(raw_input, \"value\") else raw_input\r\n\r\n        if not tickets_list:\r\n            self.status = \"No tickets received for sentiment analysis\"\r\n            return Data(value=[])\r\n\r\n        normalized = []\r\n        for item in tickets_list:\r\n            if hasattr(item, \"value\"):\r\n                item = item.value\r\n            if isinstance(item, list):\r\n                normalized.extend(item)\r\n            elif isinstance(item, dict):\r\n                normalized.append(item)\r\n\r\n        result = []\r\n        for ticket in normalized:\r\n            text = ticket.get(\"ticket_description\", \"\").strip()\r\n            if not text:\r\n                ticket[\"sentiment\"] = \"Unknown\"\r\n            else:\r\n                score = sia.polarity_scores(text)[\"compound\"]\r\n                if score >= 0.05:\r\n                    ticket[\"sentiment\"] = \"Positive\"\r\n                elif score <= -0.05:\r\n                    ticket[\"sentiment\"] = \"Negative\"\r\n                else:\r\n                    ticket[\"sentiment\"] = \"Neutral\"\r\n            result.append(ticket)\r\n\r\n        self.status = f\"Classified {len(result)} tickets\"\r\n        return Data(value=result)"
+              },
+              "tickets": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Tickets Data",
+                "dynamic": false,
+                "info": "List of ticket dictionaries",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tickets",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SentimentAnalysisVADER"
+        },
+        "dragging": false,
+        "id": "SentimentAnalysisVADER-QtEwK",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -1168.7433027805168,
+          "y": -723.5163656046558
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ExtractExamples-PNovf",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Extracts sample ticket descriptions grouped by sentiment.",
+            "display_name": "Extract Sentiment Examples",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "tickets"
+            ],
+            "frozen": false,
+            "icon": "list",
+            "legacy": false,
+            "lf_version": "1.5.0.post1",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Examples",
+                "group_outputs": false,
+                "hidden": null,
+                "method": "extract_examples",
+                "name": "examples",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom.custom_component.component import Component\r\nfrom langflow.io import DataInput, Output\r\nfrom langflow.schema.data import Data\r\n\r\ndef unwrap(data):\r\n    if hasattr(data, \"value\"):\r\n        return unwrap(data.value)\r\n    if isinstance(data, list):\r\n        result = []\r\n        for item in data:\r\n            result.extend(unwrap(item))\r\n        return result\r\n    if isinstance(data, dict):\r\n        return [data]\r\n    return []\r\n\r\nclass ExtractSentimentExamples(Component):\r\n    display_name = \"Extract Sentiment Examples\"\r\n    description = \"Extracts sample ticket descriptions grouped by sentiment.\"\r\n    icon = \"list\"\r\n    name = \"ExtractSentimentExamples\"\r\n\r\n    inputs = [\r\n        DataInput(name=\"tickets\", display_name=\"Classified Tickets\", info=\"List of ticket dicts\", is_list=True),\r\n    ]\r\n\r\n    outputs = [\r\n        Output(display_name=\"Examples\", name=\"examples\", method=\"extract_examples\"),\r\n    ]\r\n\r\n    def extract_examples(self) -> Data:\r\n        tickets_list = unwrap(self.tickets)\r\n\r\n        examples = {\"Positive\": [], \"Neutral\": [], \"Negative\": []}\r\n        for t in tickets_list:\r\n            sentiment = t.get(\"sentiment\", \"Neutral\")\r\n            text = t.get(\"ticket_description\", \"\")\r\n            if sentiment in examples and len(examples[sentiment]) < 3:\r\n                examples[sentiment].append(text)\r\n\r\n        return Data(value=examples)"
+              },
+              "tickets": {
+                "_input_type": "DataInput",
+                "advanced": false,
+                "display_name": "Classified Tickets",
+                "dynamic": false,
+                "info": "List of ticket dicts",
+                "input_types": [
+                  "Data"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "tickets",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ExtractSentimentExamples"
+        },
+        "dragging": false,
+        "id": "ExtractExamples-PNovf",
+        "measured": {
+          "height": 181,
+          "width": 320
+        },
+        "position": {
+          "x": -810.2483955211994,
+          "y": -492.61821764913526
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 1027.064295477264,
+      "y": 492.18601036693497,
+      "zoom": 0.45460556697395565
+    }
+  },
+  "description": "FOR MORE INFO: https://github.com/HasanSafa/Langflow-Practical-Challenge-Project",
+  "endpoint_name": null,
+  "id": "2e1ca985-b675-4aba-9424-3bf776c93851",
+  "is_component": false,
+  "last_tested_version": "1.5.0.post1",
+  "name": "Langflow_Practical_Challenge_Project",
+  "tags": []
+}
