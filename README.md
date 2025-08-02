@@ -48,7 +48,7 @@ FormatMarkdownReport → SendReportEmail
 . flow_screenshot_structure
 
 ---
-
+```
 ## 📂 Project Structure
 
 LangflowApp/
@@ -80,7 +80,7 @@ LangflowApp/
 ├── README.md
 ├── flow_screenshot_structure
 └── langflow_practical_challenge_project.
-
+```
 ---
 
 ## 🚀 Usage
@@ -146,3 +146,4 @@ Send a formatted HTML email to the recipient
 For questions, reach out via Discord: hasansafa000
 
 ✨ This project fully meets the Langflow Challenge 2025 requirements with advanced custom components and end-to-end automation! ✨
+
